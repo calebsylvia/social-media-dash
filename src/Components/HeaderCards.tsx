@@ -13,11 +13,11 @@ const HeaderCards = () => {
   return (
     <div className="relative mx-auto w-4/5 mt-4">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8 py-10">
-        <div className="bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 rounded-lg text-center w-full max-md:mx-auto">
+        <div className="bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 rounded-lg text-center w-full max-md:mx-auto hover:cursor-pointer">
             <div className='bg-main-facebook h-1 rounded-t-lg'></div>
             <div className='flex gap-2 justify-center pt-8 pb-2'>
               <img src={facebook} alt="Facebook Logo"/>
-              <p className='text-sm text-lightMode-darkGrayishBlue dark:text-darkMode-desatBlue'>@nathanf</p>
+              <p className='text-sm font-bold text-lightMode-darkGrayishBlue dark:text-darkMode-desatBlue'>@nathanf</p>
             </div>
             <div className='py-4 md:py-7'>
               <p className='text-7xl font-bold text-lightMode-text dark:text-darkMode-text'>1987</p>
@@ -29,11 +29,11 @@ const HeaderCards = () => {
             </div>
         </div>
 
-        <div className="bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 rounded-lg text-center w-full mx-auto">
+        <div className="bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 rounded-lg text-center w-full mx-auto hover:cursor-pointer">
             <div className='bg-main-twitter h-1 rounded-t-lg'></div>
             <div className='flex gap-2 justify-center pt-8 pb-2'>
               <img src={twitter} alt="Twitter Logo"/>
-              <p className='text-sm text-lightMode-darkGrayishBlue dark:text-darkMode-desatBlue'>@nathanf</p>
+              <p className='text-sm font-bold text-lightMode-darkGrayishBlue dark:text-darkMode-desatBlue'>@nathanf</p>
             </div>
             <div className='py-4 md:py-7'>
               <p className='text-7xl font-bold text-lightMode-text dark:text-darkMode-text'>1044</p>
@@ -45,11 +45,11 @@ const HeaderCards = () => {
             </div>
         </div>
 
-        <div className="bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 rounded-lg text-center w-full mx-auto">
+        <div className="bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 rounded-lg text-center w-full mx-auto hover:cursor-pointer">
             <div className='bg-gradient-to-r from-yellow-200 to-pink-500 h-1 rounded-t-lg'></div>
             <div className='flex gap-2 justify-center pt-8 pb-2'>
               <img src={insta} alt="Instagram Logo"/>
-              <p className='text-sm text-lightMode-darkGrayishBlue dark:text-darkMode-desatBlue'>@realnathanf</p>
+              <p className='text-sm font-bold text-lightMode-darkGrayishBlue dark:text-darkMode-desatBlue'>@realnathanf</p>
             </div>
             <div className='py-4 md:py-7'>
               <p className='text-7xl font-bold text-lightMode-text dark:text-darkMode-text'>11k</p>
@@ -61,11 +61,11 @@ const HeaderCards = () => {
             </div>
         </div>
 
-        <div className="bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 rounded-lg text-center w-full mx-auto">
+        <div className="bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 rounded-lg text-center w-full mx-auto hover:cursor-pointer">
             <div className='bg-main-youtube h-1 rounded-t-lg'></div>
             <div className='flex gap-2 justify-center pt-8 pb-2'>
               <img src={youtube} alt="Youtube Logo"/>
-              <p className='text-sm text-lightMode-darkGrayishBlue dark:text-darkMode-desatBlue'>@nathanf</p>
+              <p className='text-sm font-bold text-lightMode-darkGrayishBlue dark:text-darkMode-desatBlue'>@nathanf</p>
             </div>
             <div className='py-4 md:py-7'>
               <p className='text-7xl font-bold text-lightMode-text dark:text-darkMode-text'>8239</p>

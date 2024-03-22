@@ -12,7 +12,7 @@ const Overview = () => {
         <p className='text-lightMode-darkGrayishBlue dark:text-darkMode-text font-bold text-xl md:text-3xl pb-6'>Overview - Today</p>
         <div className='grid grid-cols-1 lg:grid-cols-4 gap-7'>
 
-            <div className='bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 p-7 rounded-lg w-full max-md:mx-auto'>
+            <div className='bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 p-7 rounded-lg w-full max-md:mx-auto hover:cursor-pointer'>
                 <div className='flex justify-between'>   
                     <p className='font-bold text-lightMode-darkGrayishBlue dark:text-darkMode-desatBlue'>Page Views</p>
                     <img src={facebook} alt="Facebook Logo" className='w-6 h-6'/>
@@ -26,7 +26,7 @@ const Overview = () => {
                 </div>
             </div>
 
-            <div className='bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 p-7 rounded-lg w-full mx-auto'>
+            <div className='bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 p-7 rounded-lg w-full mx-auto hover:cursor-pointer'>
                 <div className='flex justify-between'>   
                     <p className='font-bold text-lightMode-darkGrayishBlue dark:text-darkMode-desatBlue'>Likes</p>
                     <img src={facebook} alt="Facebook Logo" className='w-6 h-6'/>
@@ -40,7 +40,7 @@ const Overview = () => {
                 </div>
             </div>
 
-            <div className='bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 p-7 rounded-lg w-full mx-auto'>
+            <div className='bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 p-7 rounded-lg w-full mx-auto hover:cursor-pointer'>
                 <div className='flex justify-between'>   
                     <p className='font-bold text-lightMode-darkGrayishBlue dark:text-darkMode-desatBlue'>Likes</p>
                     <img src={insta} alt="Instagram Logo" className='w-6 h-6'/>
@@ -54,7 +54,7 @@ const Overview = () => {
                 </div>
             </div>
 
-            <div className='bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 p-7 rounded-lg w-full mx-auto'>
+            <div className='bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 p-7 rounded-lg w-full mx-auto hover:cursor-pointer'>
                 <div className='flex justify-between'>   
                     <p className='font-bold text-lightMode-darkGrayishBlue dark:text-darkMode-desatBlue'>Profile Views</p>
                     <img src={insta} alt="Instagram Logo" className='w-6 h-6'/>
@@ -68,7 +68,7 @@ const Overview = () => {
                 </div>
             </div>
 
-            <div className='bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 p-7 rounded-lg w-full max-md:mx-auto'>
+            <div className='bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 p-7 rounded-lg w-full max-md:mx-auto hover:cursor-pointer'>
                 <div className='flex justify-between'>   
                     <p className='font-bold text-lightMode-darkGrayishBlue dark:text-darkMode-desatBlue'>Retweets</p>
                     <img src={twitter} alt="Twitter Logo" className='w-6 h-6'/>
@@ -82,7 +82,7 @@ const Overview = () => {
                 </div>
             </div>
 
-            <div className='bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 p-7 rounded-lg w-full mx-auto'>
+            <div className='bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 p-7 rounded-lg w-full mx-auto hover:cursor-pointer'>
                 <div className='flex justify-between'>   
                     <p className='font-bold text-lightMode-darkGrayishBlue dark:text-darkMode-desatBlue'>Page Views</p>
                     <img src={twitter} alt="Twitter Logo" className='w-6 h-6'/>
@@ -96,7 +96,7 @@ const Overview = () => {
                 </div>
             </div>
 
-            <div className='bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 p-7 rounded-lg w-full mx-auto'>
+            <div className='bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 p-7 rounded-lg w-full mx-auto hover:cursor-pointer'>
                 <div className='flex justify-between'>   
                     <p className='font-bold text-lightMode-darkGrayishBlue dark:text-darkMode-desatBlue'>Page Views</p>
                     <img src={youtube} alt="Youtube Logo" className='w-6 h-6'/>
@@ -110,7 +110,7 @@ const Overview = () => {
                 </div>
             </div>
 
-            <div className='bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 p-7 rounded-lg w-full mx-auto'>
+            <div className='bg-lightMode-lightGrayishBlue dark:bg-darkMode-darkDesatBlue hover:bg-slate-200 dark:hover:bg-slate-700 p-7 rounded-lg w-full mx-auto hover:cursor-pointer'>
                 <div className='flex justify-between'>   
                     <p className='font-bold text-lightMode-darkGrayishBlue dark:text-darkMode-desatBlue'>Total Views</p>
                     <img src={youtube} alt="Youtube Logo" className='w-6 h-6'/>
